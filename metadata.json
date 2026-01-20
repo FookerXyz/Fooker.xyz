@@ -1,0 +1,8 @@
+{
+  "name": "Fooker - The Future of High-Speed Crypto",
+  "description": "A world-class cryptocurrency landing page for Fooker, featuring real-time stats, ecosystem overview, and an AI-powered coin consultant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

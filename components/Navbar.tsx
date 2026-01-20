@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 interface NavbarProps {
-  onNavigate: (view: 'home' | 'smart-contracts' | 'whitepaper' | 'policy' | 'legal' | 'disclosure' | 'marketplace' | 'events' | 'ai' | 'faq' | 'ecosystem-architecture' | 'partners' | 'base-chain') => void;
+  onNavigate: (view: 'home' | 'smart-contracts' | 'whitepaper' | 'policy' | 'legal' | 'disclosure' | 'marketplace' | 'events' | 'faq' | 'ecosystem-architecture' | 'partners' | 'base-chain') => void;
   currentView: string;
 }
 
@@ -12,7 +12,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentView }) => {
 
   const navLinks = [
     { label: 'Terminal', view: 'home' },
-    { label: 'AI', view: 'ai' },
     { label: 'Marketplace', view: 'marketplace' },
     { label: 'Events', view: 'events' },
     { label: 'Core_Logic', view: 'smart-contracts' },

@@ -19,13 +19,17 @@ export const DisclosureView: React.FC = () => {
         {/* Core Narrative */}
         <div className="lg:col-span-7 space-y-8 text-white/70 leading-relaxed">
           <p className="text-xl text-white font-medium italic border-l-4 border-[#0052FF] pl-6">
-            Fooker is initiated and supported by anonymous contributors.
+            Fooker is initiated by anonymous contributors.
           </p>
           <p>
-            The individuals involved in the early formation of Fooker chose to remain anonymous by design. Their role was limited to defining the initial intent, principles, and deployment of the FOO token. This decision aligns with the values of decentralization, permissionless participation, and reduced reliance on individual identity.
+            The individuals involved in the initial formation of Fooker intentionally chose to remain anonymous.
+            Their involvement was limited to defining the original intent, principles, and deployment of the FOO token smart contract.
+            This design choice reflects a commitment to decentralization, permissionless participation, and reduced reliance on personal identity.
           </p>
           <p>
-            Beyond this initial context-setting phase, FOO exists as a public token. There is no official team, no leadership structure, and no entity with special authority over the token or its smart contract.
+            Following deployment, the FOO token operates as a public and permissionless asset.
+            There is no official team, no leadership structure, and no individual or entity with special authority over the token or its smart contract.
+            Any third parties building tools or services within the broader ecosystem do so independently and without protocol-level control.
           </p>
         </div>
 
@@ -46,9 +50,9 @@ export const DisclosureView: React.FC = () => {
             <ul className="space-y-6">
               {[
                 "Do not control the token",
-                "Do not have ongoing power",
+                "Do not retain ongoing authority",
                 "Do not possess special privileges",
-                "Do not guarantee outcomes"
+                "Do not guarantee outcomes or returns"
               ].map((text, i) => (
                 <li key={i} className="flex items-center gap-4 group">
                   <span className="text-[#0052FF] font-black text-xs">0{i+1}</span>
@@ -65,7 +69,8 @@ export const DisclosureView: React.FC = () => {
             <div>
               <h4 className="text-white font-black uppercase tracking-tight text-xl mb-2">Decentralized Responsibility</h4>
               <p className="text-sm text-white/40 leading-relaxed max-w-xl">
-                All participation is voluntary. Users interact with Fooker based on their own judgment and at their own risk.
+                Participation is voluntary. Users interact with the FOO token based on their own independent judgment
+                and accept full responsibility for any risks associated with its use.
               </p>
             </div>
             <div className="flex gap-4">
